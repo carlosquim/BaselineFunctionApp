@@ -1,0 +1,19 @@
+{
+  "version": "2.0",
+  "logging": {
+    "logLevel": {
+      "default": "Warning",
+      "Function": "Information",
+      "Microsoft.Azure.WebJobs": "Warning",
+      "Microsoft.Hosting.Lifetime": "Information",
+      "BaselineFunctionApp": "Information"
+    },
+    "applicationInsights": {
+      "samplingSettings": {
+        "isEnabled": true,
+        "excludedTypes": "Request"
+      },
+      "enableLiveMetricsFilters": true
+    }
+  }
+}
